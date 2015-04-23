@@ -22,10 +22,6 @@ import com.google.common.collect.Lists;
 public class UrlBuilderTest {
 	@Test
 	public void test() throws Exception {
-
-		MultiValueMap<String, String> params = new LinkedMultiValueMap<>();
-		params.add("name", "freeism");
-
 		UriComponents components = UriComponentsBuilder.fromUriString("http://www.freeism.co.kr/test?id=1000").query("name=freeism").build();
 		System.out.println(components.toUriString());
 
