@@ -18,6 +18,7 @@ import com.google.common.collect.Lists;
 /**
  * @author freeism
  * @since 15. 4. 23 오전 11:47
+ * @see http://www.leveluplunch.com/java/examples/build-convert-map-to-query-string/
  */
 public class UrlBuilderTest {
 	@Test
